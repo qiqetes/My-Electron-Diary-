@@ -1,0 +1,52 @@
+{
+      "days":[
+            {
+                  "year":"2019",
+                  "days":[
+                  {
+                        "day": 1,
+                        "month": 1,
+                        "diary": "This was a good day."
+                  },{
+                        "day": 2,
+                        "month": 1,
+                        "diary": "And it was",
+                        "past-thoughts": "This is gonna be a great day"
+                  },{
+                        "day": 10,
+                        "month": 1,
+                        "diary": "Hello diary... long time since blablabla",
+                        "pastDiary":[
+                              {
+                                    "day": 3,
+                                    "month": 1, 
+                                    "thought": "I should have studied instead of going outside"
+                              }
+                        ]
+                  },{
+                        "day":22,
+                        "month":2,
+                        "diary": "Pues fue bien, pero la verdad es que... veriueu-ho",
+                        "pastDiary":[
+                              {
+                                    "day": 3,
+                                    "month": 1, 
+                                    "thought": "Me debería haber quedadolklml sa"
+                              },
+                              {
+                                    "day": 4,
+                                    "month": 2,
+                                    "thought": "Que mal."
+                              }
+                        ]
+                  }
+                  ]
+            }
+      ],
+      "settings":{
+            "background-color": "#191919",
+            "main-text-color": "pink",
+            "user": "qiqete",
+            "password": "cipher30"
+      }
+}
