@@ -149,7 +149,7 @@ export default {
     const app = remote.app;
     // TODO: check if linux and mac work with it.
     // Careful, doesn't get the same path running on developement server.
-    this.dataFolder = app.getPath("userData") + "\\savedata.json";
+    this.dataFolder = app.getPath("userData") + "/savedata.json";
 
     // Check if json exists, if it doesn't create a new json savedata
     const fs = require("fs"); // File system import from node
@@ -170,6 +170,10 @@ export default {
       } else {
         // File exists
         console.log("json savedata found: ");
+        console.log(this.dataFolder);
+        let raw = fs.readFileSync(this.dataFolder);
+        this.json = JSON.parse(raw);
+        console.log(this.json);
       }
     });
   }

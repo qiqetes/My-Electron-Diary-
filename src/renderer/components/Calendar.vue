@@ -23,6 +23,7 @@ export default {
   },
   methods: {
     isFull: function(day, month) {
+      console.log(this.json);
       for (let i = 0; i < this.json[0].days.length; i++) {
         if (
           this.json[0].days[i].day === day &&
